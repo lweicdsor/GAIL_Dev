@@ -1,6 +1,11 @@
 <?xml version='1.0' encoding='ISO-8859-1' ?>
 
+<<<<<<< HEAD
 <toc version="2.2">
+=======
+<toc version="2.0">
+    
+>>>>>>> FakeMaster
 <tocitem target="GAIL.html">GAIL Toolbox
     <tocitem target="help_license.html">License
     </tocitem>
@@ -11,6 +16,7 @@
             <tocitem target="help_funmin_g.html">funmin_g</tocitem>
             <tocitem target="help_integral_g.html">integral_g</tocitem>
             <tocitem target="help_meanMC_g.html">meanMC_g</tocitem>
+<<<<<<< HEAD
             <tocitem target="help_cubMC_g.html">cubMC_g</tocitem>
             <tocitem target="help_cubLattice_g.html">cubLattice_g</tocitem>
             <tocitem target="help_cubSobol_g.html">cubSobol_g</tocitem>
@@ -22,3 +28,13 @@
     </tocitem>
 </tocitem>
 </toc>
+=======
+            <tocitem target="help_meanMCBer_g.html">meanMCBer_g</tocitem>
+            <tocitem target="help_cubMC_g.html">cubMC_g</tocitem>
+            <tocitem target="help_cubLattice_g.html">cubLattice_g</tocitem>
+            <tocitem target="help_cubSobol_g.html">cubSobol_g</tocitem>
+        </tocitem>
+    </tocitem>
+    
+</toc>
+>>>>>>> FakeMaster

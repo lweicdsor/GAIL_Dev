@@ -100,7 +100,11 @@ end
 
 %% Defining function plotTestColor
 function plotTestColor(plotTest,param)
+<<<<<<< HEAD
 [~,~,MATLABVERSION] = GAILstart(false);
+=======
+[~,~,~,MATLABVERSION] = GAILstart(false);
+>>>>>>> FakeMaster
 if usejava('jvm') || MATLABVERSION <= 7.12
 figure
 ntot=length(plotTest.err);

@@ -1,5 +1,9 @@
 function WalshFourierCoeffDecay
+<<<<<<< HEAD
 [~,~,MATLABVERSION] = GAILstart(false);
+=======
+[~,~,~,MATLABVERSION] = GAILstart(false);
+>>>>>>> FakeMaster
 
 if usejava('jvm') || MATLABVERSION <= 7.12
     %% Garbage collection and initialization

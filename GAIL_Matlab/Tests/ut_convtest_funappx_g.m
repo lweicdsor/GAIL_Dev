@@ -6,9 +6,15 @@ classdef ut_convtest_funappx_g < matlab.unittest.TestCase
     function convtest_computationalcost_funappx_g(testCase)
       [npoints,errest,~,npointsglobal,errestglobal,~]=funappx_convtest;
       testCase.verifyGreaterThanOrEqual(npointsglobal,npoints);
+<<<<<<< HEAD
       testCase.verifyGreaterThanOrEqual(sum(errest<=errestglobal),5);
     end
     
+=======
+      testCase.verifyGreaterThanOrEqual(errest,errestglobal);
+    end
+  
+>>>>>>> FakeMaster
 %      function convtest_timecost_funappx_g(testCase)
 %       [~,~,t,~,~,tglobal]=funappx_convtest;
 %       testCase.verifyGreaterThanOrEqual(tglobal(5),t(5));

@@ -24,6 +24,7 @@
 %   ut_workout_funappx_g   - long unit tests for workoutfunappx_g
 %   ut_workout_funmin_g    - long unit tests for funmin_g workouts
 %   ut_workout_integral_g  - unit test for workout_integral_g
+<<<<<<< HEAD
 %   dt_integralNoPenalty_g - DT_integralNoPenalty_g small doctest for integralNoPenalty_g
 %   ut_assetPath           - ut_assetPath
 %   ut_brownianMotion      - ut_brownianMotion
@@ -38,5 +39,8 @@
 % Folder
 %   
 %   Developers_only	       - drivers for fast and long tests 
+=======
+
+>>>>>>> FakeMaster
 
 

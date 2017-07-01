@@ -5,11 +5,19 @@ classdef ut_Papers_cubLattice_g < matlab.unittest.TestCase
     
     function cubLattice_AsianSuccessrate(testCase)
       Latticesuccess = RunTestCubatureonGeoAsianCallLattice;
+<<<<<<< HEAD
       testCase.verifyLessThanOrEqual(0.90,Latticesuccess);
     end
     function cubLattice_KesiterSuccessrate(testCase)
       Latticesuccess = RunTestCubatureonKeisterLattice;
       testCase.verifyLessThanOrEqual(0.90,Latticesuccess);
+=======
+      testCase.verifyLessThanOrEqual(0.93,Latticesuccess);
+    end
+    function cubLattice_KesiterSuccessrate(testCase)
+      Latticesuccess = RunTestCubatureonKeisterLattice;
+      testCase.verifyLessThanOrEqual(0.93,Latticesuccess);
+>>>>>>> FakeMaster
     end
     
   end
